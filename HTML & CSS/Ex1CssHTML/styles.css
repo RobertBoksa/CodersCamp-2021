@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+.brand-title {
+    font-size: 60px;
+}
+
+.title {
+    font-family: cursive;
+    text-align: center;
+}
+
+.collumns-3 {
+    display: flex;
+    border-top: gray solid 1px;
+    
+    
+}
+
+.text-area {
+    width: 25%;
+    padding: 0 10px;
+    flex-direction: column;
+    border: gray solid 1px;
+}
+
+.img-area {
+    width: 50%;
+    flex-direction: column;
+    border-top: gray solid 1px;
+    border-bottom: gray solid 1px;
+    padding: 0 10px;
+}
+
+
+.text-stretch {
+    align-content: stretch;
+}
+
+.img-fill {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.li-list {
+    width: 75%;
+    border: gray solid 1px;
+    margin: 0;
+    padding: 0;
+    border:gray solid 1px;
+    border-left: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes-list {
+    display: flex;
+    height: inherit;
+    flex: content;
+    align-items: center;
+}
+
+.font-list {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link-section {
+    color: gray;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.link-section:hover {
+    text-decoration: underline;
+}
+
+.color-pol {
+    background: #ffeaa7;
+}
+
+.color-tech {
+    background: #81ecec;
+}
+
+.color-loc {
+    background:#55efc4;
+}
+
+.color-opi {
+    background: #74b9ff;
+}
+
+.color-sport {
+    background: #a29bfe;
+}
